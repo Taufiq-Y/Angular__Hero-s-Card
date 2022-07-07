@@ -1,0 +1,27 @@
+<nav class="navbar navbar-light bg-light">
+  <a class="navbar-brand" href="#">
+    <img
+     [src]="image"
+      width="30"
+      height="30"
+      class="d-inline-block align-top"
+      alt=""
+    />
+    Heroes
+  </a>
+  <h3 class="text-right">Welcome to the world of {{ heros }}</h3>
+</nav>
+<div class="buttonaligndas">
+<a href="/dashboard"
+  ><button type="button" class="btn btn-primary">dashboard</button></a
+  >
+</div>
+<div class="buttonalignher">
+<a href="/heros"
+  ><button type="button" class="btn btn-warning">Heros</button></a
+>
+</div>
+
+<!-- Image and text -->
+
+<router-outlet></router-outlet>
